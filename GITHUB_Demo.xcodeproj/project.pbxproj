@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9C6F31162A3F1037007E7A23 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C6F31152A3F1037007E7A23 /* ThirdViewController.swift */; };
 		9CEBE1222A3F0E880088FB22 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CEBE1212A3F0E880088FB22 /* AppDelegate.swift */; };
 		9CEBE1242A3F0E880088FB22 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CEBE1232A3F0E880088FB22 /* SceneDelegate.swift */; };
 		9CEBE1262A3F0E880088FB22 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CEBE1252A3F0E880088FB22 /* ViewController.swift */; };
@@ -37,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9C6F31152A3F1037007E7A23 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
 		9CEBE11E2A3F0E880088FB22 /* GITHUB_Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GITHUB_Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CEBE1212A3F0E880088FB22 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9CEBE1232A3F0E880088FB22 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -105,6 +107,7 @@
 				9CEBE1232A3F0E880088FB22 /* SceneDelegate.swift */,
 				9CEBE1252A3F0E880088FB22 /* ViewController.swift */,
 				9CEBE1512A3F0F5D0088FB22 /* SecondViewController.swift */,
+				9C6F31152A3F1037007E7A23 /* ThirdViewController.swift */,
 				9CEBE1272A3F0E880088FB22 /* Main.storyboard */,
 				9CEBE12A2A3F0E890088FB22 /* Assets.xcassets */,
 				9CEBE12C2A3F0E890088FB22 /* LaunchScreen.storyboard */,
@@ -263,6 +266,7 @@
 			files = (
 				9CEBE1522A3F0F5D0088FB22 /* SecondViewController.swift in Sources */,
 				9CEBE1262A3F0E880088FB22 /* ViewController.swift in Sources */,
+				9C6F31162A3F1037007E7A23 /* ThirdViewController.swift in Sources */,
 				9CEBE1222A3F0E880088FB22 /* AppDelegate.swift in Sources */,
 				9CEBE1242A3F0E880088FB22 /* SceneDelegate.swift in Sources */,
 			);
