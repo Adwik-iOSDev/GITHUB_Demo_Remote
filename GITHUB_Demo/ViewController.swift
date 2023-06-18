@@ -11,9 +11,12 @@ class ViewController: UIViewController {
 
     var name: String?
     
+    @IBOutlet weak var tabVw: UITableView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        self.tabVw.dataSource = self
+        self.tabVw.delegate = self
     }
 
     func a() {
@@ -22,3 +25,19 @@ class ViewController: UIViewController {
 
 }
 
+
+extension ViewController: UITableViewDataSource, UITableViewDelegate {
+    
+    
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        <#code#>
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        <#code#>
+    }
+    
+    
+    
+    
+}
